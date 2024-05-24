@@ -23,9 +23,7 @@ export class ValidatorsEmailService implements AsyncValidator {
    return httpCallObservable;
   }
 
-    isEqualPass(fiel1:string, field2:string){
-      
-    }
+
   /*
   validate(control: AbstractControl): Observable<ValidationErrors | null> {
     const email= control.value;
